@@ -4,7 +4,7 @@ The general transcription factor, TATA box-binding protein (TBP), plays a crucia
 
 ## Overview
 
-This repository contains scripts for the analysis of RNA-seq data for the Tbp1 protein in fission yeast. The analysis includes STAR alignment, RSEM quantification, and differential gene expression using edgeR.
+This repository contains scripts for the analysis of RNA-seq and ChIP-seq data for the Tbp1 protein in fission yeast. This analysis includes alignment, peak and expression quantification, and differential gene expression using edgeR.
 
 ## Scripts
 
@@ -13,3 +13,11 @@ This repository contains scripts for the analysis of RNA-seq data for the Tbp1 p
 2. rsem.sh: Estimate gene and isoform expression from RNA-Seq data.
 
 3. star.sh: Alignment of raw FASTQ files to S. pombe reference genome using STAR and samtools.
+   
+4. bowtie2_mapping_alignment.sh: Shell script for aligning paired-end ChIP-seq FASTQ files to the Bowtie2 reference genome.
+
+5. PeakCalling_MACS2.sh: Shell script for performing peak calling using MACS2 on ChIP-seq treatment and control samples.
+
+6. average_score_groups.sh: Shell script for quantifying protein binding across different genes based on expression levels.
+
+7. average_score_pol2_groups.R: R script for visualizing average protein binding at RNAP2 transcribed genes based on location.
