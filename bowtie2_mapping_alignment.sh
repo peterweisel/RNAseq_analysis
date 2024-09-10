@@ -29,7 +29,7 @@ DIR_WORK=/projects/nomalab/pweisel/ChIPseq_analysis
 DIR_DATA=${DIR_WORK}/Data_raw
 
 ### declare sample names
-declare -a lst=("Cut14Pk")
+declare -a lst=("WT", "N25", "N50")
 for NAME in ${lst[@]};
 do
 
