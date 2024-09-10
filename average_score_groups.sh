@@ -25,7 +25,7 @@ LOG_FILE=${DIR_DATA}/ave_score/log.txt
 
 ### declare group and sample names
 declare -a lst=("GROUP_1" "GROUP_2" "GROUP_3" "GROUP_4" "GROUP_5" "GROUP_6" "GROUP_7" "GROUP_8" "GROUP_9" "GROUP_10")
-declare -a samples=("Cut14Pk")
+declare -a samples=("WT", "N25", "N50")
 
 for GRP in "${lst[@]}"; do
     for BW_NAME in "${samples[@]}"; do
