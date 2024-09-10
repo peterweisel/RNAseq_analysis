@@ -16,7 +16,7 @@ DATA=/projects/nomalab/shared/pweisel_project/Peter_data/Tbp1
 RSEM_STAR=/projects/nomalab/pweisel/RSEM_STAR/pombe
 
 ### declare file names (files should be in a gzip fastq format)
-declare -a lst=("TTAGGC_S7") # "TGACCA_S8" "ACAGTG_S9" "GCCAAT_S10" "ACTTGA_S11" "GATCAG_S12"
+declare -a lst=("TTAGGC_S7" "TGACCA_S8" "ACAGTG_S9" "GCCAAT_S10" "ACTTGA_S11" "GATCAG_S12")
 
 for NAME in ${lst[@]};
 do
