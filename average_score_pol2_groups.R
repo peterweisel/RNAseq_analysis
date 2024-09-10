@@ -28,7 +28,7 @@ options(scipen = 4)
 R_table_all <- c()
 
 ### establish sample and expression group vectors
-SAMPLES <- c("Cut14Pk")
+SAMPLES <- c("WT", "N25", "N50")
 GRP_LIST <- c("GROUP_1", "GROUP_2", "GROUP_3", "GROUP_4", "GROUP_5", "GROUP_6", "GROUP_7", "GROUP_8", "GROUP_9", "GROUP_10")
 
 
