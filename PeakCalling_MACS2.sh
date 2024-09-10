@@ -22,7 +22,7 @@ module load MACS2/2.1.1.20160309-intel-2017b-Python-2.7.14
 ### directory with alignment files
 DIR_DATA=/projects/nomalab/pweisel/ChIPseq_analysis/alignment_files
 
-declare -a lst=("Cut14Pk")
+declare -a lst=("WT", "N25", "N50")
 for NAME_TARGET in ${lst[@]};
 do
 
